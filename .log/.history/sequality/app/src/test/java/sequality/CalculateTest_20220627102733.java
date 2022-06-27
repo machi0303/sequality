@@ -10,25 +10,22 @@ public class CalculateTest {
     int expected = 5;
     assertEquals(expected, calculate.sum(2, 3));
   }
-
   @Test
-  public void testAve() {
+  public void testAverage() {
     Calculate calculate = new Calculate();
     double expected = 2.5;
-    assertEquals(expected, calculate.ave(2, 3), 0.00001);
+    assertEquals(expected, calculate.average(2.0, 3.0));
   }
 
-  @Test
-  public void testOdd() {
+  public void testSum() {
     Calculate calculate = new Calculate();
-    int expected = 25;
-    assertEquals(expected, calculate.odd(1, 10));
+    int expected = 5;
+    assertEquals(expected, calculate.sum(2, 3));
   }
 
-  @Test
-  public void testEven() {
+  public void testSum() {
     Calculate calculate = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calculate.even(1, 10));
+    int expected = 5;
+    assertEquals(expected, calculate.sum(2, 3));
   }
 }

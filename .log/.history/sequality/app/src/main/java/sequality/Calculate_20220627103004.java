@@ -5,7 +5,7 @@ public class Calculate {
     return x + y;
   }
 
-  public double ave(int x, int y) {
+  public double average(int x, int y) {
     return (double) (x + y) / 2;
   }
 

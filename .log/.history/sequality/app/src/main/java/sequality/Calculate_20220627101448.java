@@ -5,7 +5,7 @@ public class Calculate {
     return x + y;
   }
 
-  public double ave(int x, int y) {
+  public double average(int x, int y) {
     return (double) (x + y) / 2;
   }
 
@@ -19,11 +19,11 @@ public class Calculate {
   }
 
   public int even(int x, int y) {
-    int even = 0;
+    int odd = 0;
     for (int i = x; i <= y; i++) {
-      if (i % 2 == 0)
-        even += i;
+      if (i % 2 == 1)
+        odd += i;
     }
-    return even;
+    return odd;
   }
 }
